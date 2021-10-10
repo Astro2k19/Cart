@@ -1,0 +1,130 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0 0 0;
+    /* margin: 0 -15px; */
+}
+.goods__col {
+    flex: 0 0 33%;
+    padding: 15px;
+   
+}
+.good__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+    padding: 30px;
+    border-radius: 5px;
+    /* text-align: center; */
+
+}
+.good__title {
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.good__img {
+    flex: 1 1 150px;
+    margin: 0 0 15px 0;
+    /* overflow: hidden; */
+    
+}
+
+.good__img img{
+    max-width: 100%;
+    max-height: 222px;
+
+}
+.good__price {
+    margin: 0 0 15px 0;
+}
+.good__btn {
+    padding: 15px 0;
+    width: 100%;
+    display: block;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.wrapper-cart {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+}
+.cart {
+    
+}
+.cart__item {
+    display: flex;
+    border: 1px solid black;
+}
+.cart__item-cell {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+.cart-image{
+    min-width: 148px;
+}
+.cart-title{
+    max-width: 577px;
+}
+.cart__button-delete {
+    width: 50px;
+    height: 50px;
+}
+.cart__item-image {
+    width: 100px;
+    height: 100px;
+}
+.cart__item-title {
+    font-size: 30px;
+}
+.cart__button-minus {
+    width: 50px;
+    height: 50px;
+}
+.cart__item-count {
+}
+.cart__button-plus {
+    width: 50px;
+    height: 50px;
+}
+.cart__item-total {
+}
+.cart__total-sum {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    border-top: 0px;
+    padding: 10px;
+    font-size: 25px;
+}
+.total-sum {
+}
+.currency {
+}
+
